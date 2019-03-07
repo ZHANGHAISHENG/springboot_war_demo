@@ -16,6 +16,12 @@ Seconds Minutes Hours DayofMonth Month DayofWeek
 
 quartz定时器更加强大（定时器启动，停止，状态查询功能，也支持分布式），但也复杂
 
+windowns下使用外部tomcat logback 日志乱码原因：
+<charset>UTF-8</charset> 注销掉
+https://blog.csdn.net/m0_37538015/article/details/81297015
+
+使用外部tomcat未解决： class修改后热部署
+
 参考：
 日志配置：
 https://blog.csdn.net/inke88/article/details/75007649
