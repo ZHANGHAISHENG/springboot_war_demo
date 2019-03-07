@@ -1,0 +1,104 @@
+2019-03-06T22:09:51.403 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 6312 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T22:09:51.411 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T22:09:51.526 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T22:09:51.526 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T22:09:53.773 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T22:09:53.790 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T22:09:53.802 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T22:09:53.802 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T22:09:53.818 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T22:09:54.069 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T22:09:54.074 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T22:09:54.074 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 2547 ms
+2019-03-06T22:09:54.459 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T22:09:54.906 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T22:09:54.946 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T22:09:54.985 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T22:09:54.989 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 4.393 seconds (JVM running for 6.367)
+2019-03-06T22:10:11.276 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T22:10:11.276 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T22:10:11.287 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 11 ms
+2019-03-06T22:10:11.304 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:10:11.313 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:10:11.358 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:10:49.529 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:10:49.530 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:10:49.535 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:10:50.458 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:10:50.459 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:10:50.461 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:10:50.685 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:10:50.686 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:10:50.688 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:10:50.891 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:10:50.892 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:10:50.896 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:10:51.080 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:10:51.081 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:10:51.084 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:04.903 INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-06T22:11:05.269 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 6312 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T22:11:05.270 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T22:11:05.754 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T22:11:05.756 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T22:11:05.757 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T22:11:05.757 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T22:11:05.882 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T22:11:05.883 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T22:11:05.884 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 611 ms
+2019-03-06T22:11:06.065 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T22:11:06.178 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T22:11:06.201 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T22:11:06.210 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T22:11:06.211 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 0.977 seconds (JVM running for 77.589)
+2019-03-06T22:11:06.214 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 70 - Condition evaluation unchanged
+2019-03-06T22:11:09.761 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T22:11:09.763 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T22:11:09.774 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 10 ms
+2019-03-06T22:11:09.776 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:09.777 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:09.788 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:10.196 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:10.198 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:10.205 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:10.414 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:10.415 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:10.419 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:10.576 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:10.577 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:10.582 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:10.741 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:10.742 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:10.745 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:10.904 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:10.904 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:10.908 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:11.066 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:11.068 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:11.071 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:11.236 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:11.238 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:11.246 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T22:11:21.985 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 6316 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T22:11:21.994 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T22:11:22.155 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T22:11:22.156 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T22:11:24.452 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T22:11:24.468 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T22:11:24.482 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T22:11:24.483 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T22:11:24.491 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T22:11:24.746 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T22:11:24.750 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T22:11:24.751 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 2595 ms
+2019-03-06T22:11:25.142 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T22:11:25.594 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T22:11:25.635 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T22:11:25.674 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T22:11:25.679 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 4.447 seconds (JVM running for 5.839)
+2019-03-06T22:11:31.280 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T22:11:31.280 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T22:11:31.290 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 10 ms
+2019-03-06T22:11:31.308 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T22:11:31.318 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T22:11:31.805 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------

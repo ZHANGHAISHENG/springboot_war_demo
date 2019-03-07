@@ -1,0 +1,296 @@
+2019-03-06T21:00:16.078 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 7384 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:00:16.502 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:00:17.229 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T21:00:17.230 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T21:00:25.378 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:00:25.511 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:00:25.566 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:00:25.568 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:00:25.662 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T21:00:26.449 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:00:26.472 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:00:26.472 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 9242 ms
+2019-03-06T21:00:27.640 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:00:28.863 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:00:29.963 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:00:30.172 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:00:30.186 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 18.818 seconds (JVM running for 27.548)
+2019-03-06T21:01:57.612 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T21:01:57.613 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T21:01:57.638 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 24 ms
+2019-03-06T21:01:57.751 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:01:58.165 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:01:58.165 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:02:06.257 WARN  o.s.w.s.PageNotFound 1248 - No mapping for GET /view/1
+2019-03-06T21:02:06.501 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:02:06.518 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:02:06.569 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:02:14.175 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:02:14.177 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:02:14.391 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:06:25.542 DEBUG o.s.t.c.j.SpringJUnit4ClassRunner 139 - SpringJUnit4ClassRunner constructor called with [class com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:25.556 DEBUG o.s.t.c.BootstrapUtils 96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-06T21:06:25.568 DEBUG o.s.t.c.BootstrapUtils 79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-06T21:06:25.598 DEBUG o.s.t.c.BootstrapUtils 132 - Instantiating TestContextBootstrapper for test class [com.hamlt.springboot.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+2019-03-06T21:06:25.641 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hamlt.springboot.DemoApplicationTests], using SpringBootContextLoader
+2019-03-06T21:06:25.647 DEBUG o.s.t.c.s.AbstractContextLoader 258 - Did not detect default resource location for test class [com.hamlt.springboot.DemoApplicationTests]: class path resource [com/hamlt/springboot/DemoApplicationTests-context.xml] does not exist
+2019-03-06T21:06:25.648 DEBUG o.s.t.c.s.AbstractContextLoader 258 - Did not detect default resource location for test class [com.hamlt.springboot.DemoApplicationTests]: class path resource [com/hamlt/springboot/DemoApplicationTestsContext.groovy] does not exist
+2019-03-06T21:06:25.649 INFO  o.s.t.c.s.AbstractContextLoader 264 - Could not detect default resource locations for test class [com.hamlt.springboot.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-06T21:06:25.651 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils 83 - Could not detect default configuration classes for test class [com.hamlt.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-06T21:06:25.791 DEBUG o.s.t.c.s.ActiveProfilesUtils 79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:25.927 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider 437 - Identified candidate component class: file [D:\projects\spring\springboot_war_demo\target\classes\com\hamlt\springboot\DemoApplication.class]
+2019-03-06T21:06:25.935 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 247 - Found @SpringBootConfiguration com.hamlt.springboot.DemoApplication for test class com.hamlt.springboot.DemoApplicationTests
+2019-03-06T21:06:26.094 DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper 125 - @TestExecutionListeners is not present for class [com.hamlt.springboot.DemoApplicationTests]: using defaults.
+2019-03-06T21:06:26.095 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-06T21:06:26.124 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@c03cf28, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1329eff, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6497b078, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@41c2284a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@53aad5d5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@46fa7c39, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1fb700ee, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f67eb2a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a668b6e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f683daf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78ffe6dc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@8317c52]
+2019-03-06T21:06:26.127 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.128 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.132 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.133 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.135 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.135 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.142 DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener 142 - Before test class: context [DefaultTestContext@6a6afff2 testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1649b0e6 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.hamlt.springboot.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6ee12bac, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@400cff1a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1f1c7bf6, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@17c1bced], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-06T21:06:26.143 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.144 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:06:26.185 DEBUG o.s.t.c.s.TestPropertySourceUtils 245 - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+2019-03-06T21:06:27.024 INFO  c.h.s.DemoApplicationTests 50 - Starting DemoApplicationTests on PC-201708121922 with PID 2100 (started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:06:27.025 INFO  c.h.s.DemoApplicationTests 679 - The following profiles are active: prod
+2019-03-06T21:06:33.062 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:06:35.138 INFO  c.h.s.DemoApplicationTests 59 - Started DemoApplicationTests in 8.921 seconds (JVM running for 12.419)
+2019-03-06T21:06:36.247 INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:08:13.357 DEBUG o.s.t.c.j.SpringJUnit4ClassRunner 139 - SpringJUnit4ClassRunner constructor called with [class com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:13.379 DEBUG o.s.t.c.BootstrapUtils 96 - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2019-03-06T21:08:13.407 DEBUG o.s.t.c.BootstrapUtils 79 - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2019-03-06T21:08:13.472 DEBUG o.s.t.c.BootstrapUtils 132 - Instantiating TestContextBootstrapper for test class [com.hamlt.springboot.DemoApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+2019-03-06T21:08:13.520 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.hamlt.springboot.DemoApplicationTests], using SpringBootContextLoader
+2019-03-06T21:08:13.533 DEBUG o.s.t.c.s.AbstractContextLoader 258 - Did not detect default resource location for test class [com.hamlt.springboot.DemoApplicationTests]: class path resource [com/hamlt/springboot/DemoApplicationTests-context.xml] does not exist
+2019-03-06T21:08:13.534 DEBUG o.s.t.c.s.AbstractContextLoader 258 - Did not detect default resource location for test class [com.hamlt.springboot.DemoApplicationTests]: class path resource [com/hamlt/springboot/DemoApplicationTestsContext.groovy] does not exist
+2019-03-06T21:08:13.535 INFO  o.s.t.c.s.AbstractContextLoader 264 - Could not detect default resource locations for test class [com.hamlt.springboot.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-03-06T21:08:13.537 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils 83 - Could not detect default configuration classes for test class [com.hamlt.springboot.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-03-06T21:08:13.686 DEBUG o.s.t.c.s.ActiveProfilesUtils 79 - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:13.901 DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider 437 - Identified candidate component class: file [D:\projects\spring\springboot_war_demo\target\classes\com\hamlt\springboot\DemoApplication.class]
+2019-03-06T21:08:13.911 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 247 - Found @SpringBootConfiguration com.hamlt.springboot.DemoApplication for test class com.hamlt.springboot.DemoApplicationTests
+2019-03-06T21:08:14.177 DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper 125 - @TestExecutionListeners is not present for class [com.hamlt.springboot.DemoApplicationTests]: using defaults.
+2019-03-06T21:08:14.178 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-06T21:08:14.217 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper 177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@41c2284a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53aad5d5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@46fa7c39, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fb700ee, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f67eb2a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a668b6e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f683daf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78ffe6dc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@8317c52, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@76f2bbc1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68e965f5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6f27a732]
+2019-03-06T21:08:14.224 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.227 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.231 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.231 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.233 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.234 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.249 DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener 142 - Before test class: context [DefaultTestContext@4da4253 testClass = DemoApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3972a855 testClass = DemoApplicationTests, locations = '{}', classes = '{class com.hamlt.springboot.DemoApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@275710fc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@52aa2946, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@214b199c, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@14ec4505], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+2019-03-06T21:08:14.251 DEBUG o.s.t.a.ProfileValueUtils 70 - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.252 DEBUG o.s.t.a.ProfileValueUtils 83 - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.hamlt.springboot.DemoApplicationTests]
+2019-03-06T21:08:14.315 DEBUG o.s.t.c.s.TestPropertySourceUtils 245 - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+2019-03-06T21:08:15.318 INFO  c.h.s.DemoApplicationTests 50 - Starting DemoApplicationTests on PC-201708121922 with PID 684 (started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:08:15.322 INFO  c.h.s.DemoApplicationTests 679 - The following profiles are active: prod
+2019-03-06T21:08:21.155 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:08:22.474 INFO  c.h.s.DemoApplicationTests 59 - Started DemoApplicationTests in 8.132 seconds (JVM running for 11.087)
+2019-03-06T21:08:22.930 INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:34:40.321 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 5276 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:34:40.351 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:34:40.536 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T21:34:40.537 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T21:34:43.326 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:34:43.343 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:34:43.356 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:34:43.356 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:34:43.365 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T21:34:43.641 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:34:43.647 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:34:43.648 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 3111 ms
+2019-03-06T21:34:44.081 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:34:44.606 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:34:44.646 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:34:44.685 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:34:44.690 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 5.757 seconds (JVM running for 8.078)
+2019-03-06T21:35:00.809 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T21:35:00.809 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T21:35:00.819 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 10 ms
+2019-03-06T21:35:00.835 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:35:00.846 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:35:00.888 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:37:03.305 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 4144 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:37:03.313 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:37:03.396 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T21:37:03.397 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T21:37:06.242 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:37:06.258 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:37:06.270 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:37:06.270 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:37:06.278 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T21:37:06.535 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:37:06.539 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:37:06.540 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 3143 ms
+2019-03-06T21:37:06.910 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:37:07.339 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:37:07.378 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:37:07.414 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:37:07.419 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 5.021 seconds (JVM running for 7.818)
+2019-03-06T21:37:24.085 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T21:37:24.086 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T21:37:24.097 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 11 ms
+2019-03-06T21:37:24.117 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:37:24.128 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:37:24.675 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:37:58.184 INFO  o.s.s.c.ThreadPoolTaskExecutor 208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:37:58.610 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 4144 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:37:58.611 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:37:59.059 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:37:59.060 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:37:59.061 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:37:59.061 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:37:59.227 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:37:59.228 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:37:59.229 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 615 ms
+2019-03-06T21:37:59.536 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:37:59.682 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:37:59.708 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:37:59.718 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:37:59.719 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 1.145 seconds (JVM running for 60.117)
+2019-03-06T21:37:59.722 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 70 - Condition evaluation unchanged
+2019-03-06T21:38:07.925 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T21:38:07.926 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T21:38:07.931 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 5 ms
+2019-03-06T21:38:07.933 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:07.934 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:08.035 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:08.959 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:08.959 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:08.961 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:09.211 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:09.212 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:09.214 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:09.388 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:09.389 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:09.391 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:09.735 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:09.736 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:09.737 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:09.911 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:09.911 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:09.913 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:10.081 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:10.081 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:10.083 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:10.252 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:10.252 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:10.254 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:10.418 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:10.418 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:10.419 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:10.583 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:10.583 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:10.585 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:10.766 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:10.767 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:10.768 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:10.955 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:10.956 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:10.957 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:11.134 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:11.135 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:11.138 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:17.592 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:17.592 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:17.596 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:17.783 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:17.783 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:17.786 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:18.013 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:18.015 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:18.016 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:18.193 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:18.193 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:18.195 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:18.523 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:18.523 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:18.524 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:38:33.372 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 4556 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:38:33.377 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:38:33.501 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T21:38:33.502 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T21:38:35.988 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:38:36.005 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:38:36.017 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:38:36.017 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:38:36.025 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T21:38:36.271 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:38:36.276 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:38:36.276 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 2774 ms
+2019-03-06T21:38:36.619 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:38:37.117 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:38:37.183 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:38:37.245 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:38:37.251 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 4.62 seconds (JVM running for 5.911)
+2019-03-06T21:38:51.599 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T21:38:51.600 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T21:38:51.609 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 9 ms
+2019-03-06T21:38:51.624 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:38:51.634 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:38:51.674 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:39:38.445 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:39:38.446 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:39:38.450 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:39:39.892 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:39:39.894 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:39:39.898 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:39:40.170 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:39:40.171 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:39:40.178 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:39:40.354 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:39:40.355 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:39:40.360 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:39:40.494 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:39:40.495 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:39:40.497 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:39:59.594 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 9020 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:39:59.600 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:39:59.669 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T21:39:59.670 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T21:40:02.422 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:40:02.438 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:40:02.450 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:40:02.451 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:40:02.459 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T21:40:02.699 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:40:02.703 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:40:02.703 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 3032 ms
+2019-03-06T21:40:03.069 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:40:03.506 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:40:03.544 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:40:03.583 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:40:03.587 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 4.651 seconds (JVM running for 6.218)
+2019-03-06T21:40:16.836 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-06T21:40:16.837 INFO  o.s.w.s.DispatcherServlet 524 - Initializing Servlet 'dispatcherServlet'
+2019-03-06T21:40:16.847 INFO  o.s.w.s.DispatcherServlet 546 - Completed initialization in 10 ms
+2019-03-06T21:40:16.864 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:40:16.874 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:40:16.899 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:40:16.908 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:40:16.921 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:40:16.930 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:40:32.251 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:40:32.252 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:40:32.259 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:40:32.261 INFO  c.h.s.i.LoginInterceptor 24 - ---------------------开始进入请求地址拦截----------------------------
+2019-03-06T21:40:32.274 INFO  c.h.s.i.LoginInterceptor 30 - --------------处理请求完成后视图渲染之前的处理操作---------------
+2019-03-06T21:40:32.276 INFO  c.h.s.i.LoginInterceptor 35 - ---------------视图渲染之后的操作-------------------------
+2019-03-06T21:47:09.261 INFO  c.h.s.DemoApplication 50 - Starting DemoApplication on PC-201708121922 with PID 4848 (D:\projects\spring\springboot_war_demo\target\classes started by Administrator in D:\projects\spring\springboot_war_demo)
+2019-03-06T21:47:09.297 INFO  c.h.s.DemoApplication 679 - The following profiles are active: prod
+2019-03-06T21:47:09.368 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-03-06T21:47:09.369 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor 227 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-03-06T21:47:12.057 INFO  o.s.b.w.e.t.TomcatWebServer 90 - Tomcat initialized with port(s): 8080 (http)
+2019-03-06T21:47:12.077 INFO  o.a.c.h.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:47:12.093 INFO  o.a.c.c.StandardService 173 - Starting service [Tomcat]
+2019-03-06T21:47:12.094 INFO  o.a.c.c.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-06T21:47:12.104 INFO  o.a.c.c.AprLifecycleListener 173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [F:\jdk8\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;F:\jdk8\jdk\bin;F:\jdk8\jdk\jre\bin;F:\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;F:\Git\cmd;F:\scala-2\bin;F:\scala-2\jre\bin;F:\sbt1.0.3\bin;F:\sbt1.0.3\bin;;.]
+2019-03-06T21:47:12.345 INFO  o.a.j.s.TldScanner 173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-06T21:47:12.350 INFO  o.a.c.c.C.[.[.[/] 173 - Initializing Spring embedded WebApplicationContext
+2019-03-06T21:47:12.350 INFO  o.s.w.c.ContextLoader 296 - Root WebApplicationContext: initialization completed in 2981 ms
+2019-03-06T21:47:12.702 INFO  o.s.s.c.ThreadPoolTaskExecutor 171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-06T21:47:13.174 INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2019-03-06T21:47:13.214 INFO  o.a.c.h.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8080"]
+2019-03-06T21:47:13.252 INFO  o.s.b.w.e.t.TomcatWebServer 204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-06T21:47:13.257 INFO  c.h.s.DemoApplication 59 - Started DemoApplication in 4.698 seconds (JVM running for 6.336)
